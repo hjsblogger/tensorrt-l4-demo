@@ -18,4 +18,4 @@ torch.onnx.export(
     model, dummy_input, "simple_model.onnx",
     input_names=["input"], output_names=["output"], opset_version=17
 )
-print("ONNX model exported successfully!")
+print("✅ Model exported successfully to simple_model.onnx")
