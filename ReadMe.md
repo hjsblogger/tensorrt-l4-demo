@@ -1,5 +1,7 @@
 # TensorRT on L4: 40% Latency Reduction with Simple MLP
 
+<img src="https://github.com/user-attachments/assets/fbe6f8e6-01c1-4949-ba90-0197fd6ff78c" width="1000" height="400" alt="TensorRT demo">
+
 Minimal demo: Optimize PyTorch MLP for L4 GPUs via TensorRT.
 
 ## Quick Start
@@ -16,5 +18,3 @@ Minimal demo: Optimize PyTorch MLP for L4 GPUs via TensorRT.
 | TRT FP16   | 0.20-0.30   | 40-50%   |
 
 L4 Tips: Use g2-standard-4; monitor with `nvidia-smi`.
-
-MIT License.
